@@ -10,17 +10,24 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 */
 
 // Var. frei definiert
-var zahl1;
-var zahl2;
-
+let eingabe1;
+let eingabe2;
+let zahl1;
+let zahl2;
 let summe;
 
 // Eingabe Prompts
-zahl1 = prompt("Bitte eine Zahl eingeben:");
-zahl2 = prompt("Bitte eine weitere Zahl eingeben:");
+eingabe1 = prompt("Bitte eine Zahl eingeben:");
+eingabe2 = prompt("Bitte eine weitere Zahl eingeben:");
 
-//Rechnung
+//Rechnung + Umwandlung
+zahl1 = parseInt(eingabe1);
+zahl2 = parseInt(eingabe2);
 summe = zahl1 + zahl2;
 
 //Ausgabe
+console.log(typeof zahl1);
+console.log("Erster Wert:",zahl1);
+console.log(typeof zahl2);
+console.log("Zweiter Wert:",zahl2);
 console.log ("Die Summer der Zahlen ist: summe");
