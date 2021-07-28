@@ -23,11 +23,11 @@ eingabe2 = prompt("Bitte eine weitere Zahl eingeben:");
 //Rechnung + Umwandlung
 zahl1 = parseInt(eingabe1);
 zahl2 = parseInt(eingabe2);
-summe = zahl1 + zahl2;
+summe = zahl1+zahl2;
 
 //Ausgabe
 console.log(typeof zahl1);
 console.log("Erster Wert:",zahl1);
 console.log(typeof zahl2);
 console.log("Zweiter Wert:",zahl2);
-console.log ("Die Summer der Zahlen ist: summe");
+console.log ("Die Summer der Zahlen ist:", summe);
