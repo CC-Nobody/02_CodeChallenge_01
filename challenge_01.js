@@ -26,8 +26,18 @@ zahl2 = parseInt(eingabe2);
 summe = zahl1+zahl2;
 
 //Ausgabe
+
+/* Extra logs zur Kontrolle
 console.log(typeof zahl1);
 console.log("Erster Wert:",zahl1);
 console.log(typeof zahl2);
 console.log("Zweiter Wert:",zahl2);
-console.log ("Die Summer der Zahlen ist:", summe);
+console.log ("Der Datentyp von Summe ist:",typeof summe);
+*/
+
+
+if (isNaN(summe)) {
+    console.log("Eine Ihrer Eingaben war keine Zahl bitte versuchen Sie es erneut!")
+} else {
+    console.log("Die Summe der Zahlen ist:", summe)
+}
