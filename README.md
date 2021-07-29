@@ -1,3 +1,3 @@
 # 02_CodeChallenge_01
 
-Done by Andre Diermann
+Solved by Andre Diermann
